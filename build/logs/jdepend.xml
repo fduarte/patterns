@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="+global">
+      <Stats>
+        <TotalClasses>9</TotalClasses>
+        <ConcreteClasses>7</ConcreteClasses>
+        <AbstractClasses>2</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>0</Ce>
+        <A>0.22222222222222</A>
+        <I>0</I>
+        <D>0.77777777777778</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/var/www/mount/patterns/src/application/CurlExample.php">CurlExample</Class>
+        <Class sourceFile="/var/www/mount/patterns/src/application/Driver.php">Driver</Class>
+        <Class sourceFile="/var/www/mount/patterns/src/application/Example.php">Example</Class>
+        <Class sourceFile="/var/www/mount/patterns/src/application/FixedCostStrategy.php">FixedCostStrategy</Class>
+        <Class sourceFile="/var/www/mount/patterns/src/application/Lecture.php">Lecture</Class>
+        <Class sourceFile="/var/www/mount/patterns/src/application/Seminar.php">Seminar</Class>
+        <Class sourceFile="/var/www/mount/patterns/src/application/TimedCostStrategy.php">TimedCostStrategy</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/var/www/mount/patterns/src/application/CostStrategy.php">CostStrategy</Class>
+        <Class sourceFile="/var/www/mount/patterns/src/application/Lesson.php">Lesson</Class>
+      </AbstractClasses>
+      <DependsUpon/>
+      <UsedBy/>
+    </Package>
+    <Package name="one\more">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>0</Ce>
+        <A>0</A>
+        <I>0</I>
+        <D>1</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/var/www/mount/patterns/src/application/FreddyNamespace.php">FreddyNamespace</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon/>
+      <UsedBy/>
+    </Package>
+    <Package name="one">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>0</Ce>
+        <A>0</A>
+        <I>0</I>
+        <D>1</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/var/www/mount/patterns/src/application/FreddyNamespace2.php">FreddyNamespace</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon/>
+      <UsedBy/>
+    </Package>
+    <Package name="two">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>0</Ce>
+        <A>0</A>
+        <I>0</I>
+        <D>1</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/var/www/mount/patterns/src/application/FreddyNamespace2.php">FreddyNamespace</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon/>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>

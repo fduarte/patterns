@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Model Test Suite" tests="2" assertions="2" failures="0" errors="0" time="0.062973">
+    <testsuite name="ExampleTest" file="/var/www/mount/patterns/tests/application/ExampleTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.062973">
+      <testcase name="testSomething" class="ExampleTest" file="/var/www/mount/patterns/tests/application/ExampleTest.php" line="7" assertions="1" time="0.057282"/>
+      <testcase name="testSomething2" class="ExampleTest" file="/var/www/mount/patterns/tests/application/ExampleTest.php" line="12" assertions="1" time="0.005691"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

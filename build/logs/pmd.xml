@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="@project.version@" timestamp="2014-08-24T01:24:44+00:00">
+  <file name="/var/www/mount/patterns/src/application/Driver.php">
+    <violation beginline="11" endline="14" rule="UnusedPrivateMethod" ruleset="Unused Code Rules" package="+global" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedprivatemethod" class="Driver" method="loader" priority="3">
+      Avoid unused private methods such as 'loader'.
+    </violation>
+  </file>
+</pmd>

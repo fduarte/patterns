@@ -1,0 +1,33 @@
+{
+    "name": "Goiaba/Goiaba",
+    "description": "Freddy's testing framework.",
+    "version": "0.0.1",
+    "type": "library",
+    "keywords": ["php", "goiaba", "framework", "mvc"],
+    "homepage": "http://freddyduarte.com",
+    "time": "2014-09-15",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freddy Duarte",
+            "email": "freddy@freddyduarte.com",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*",
+        "squizlabs/php_codesniffer": "1.*",
+        "phploc/phploc": "*",
+        "pdepend/pdepend" : "2.0.*",
+        "phpmd/phpmd" : "2.0.*",
+        "sebastian/phpcpd": "*",
+        "phing/phing": "dev-master",
+        "corneltek/pux": "~1.3"
+    },
+    "autoload": {
+      "psr-4": {
+          "Goiaba\\": "lib/Goiaba",
+          "App\\": "src/App"
+      }
+    }
+}

@@ -1,0 +1,21 @@
+### Composer dependencies ###
+vendor
+
+### Textmate ###
+.DS_Store
+
+### VIM ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+### PhpStorm ###
+/*.iml
+.idea/
+
+
+
+
